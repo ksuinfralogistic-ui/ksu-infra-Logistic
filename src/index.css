@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-serif: 'Playfair Display', serif;
+    --color-navy: #0B192C;
+    --color-navy-dark: #060D17;
+    --color-royal: #1D4ED8;
+    --color-gold: #D4AF37;
+    --color-gold-light: #F5E6BE;
+    --color-gold-dark: #AA8222;
+    --color-saffron: #FF7722;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-heading {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom utility classes */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F3C352 0%, #D4AF37 50%, #B8860B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.25);
+}
+
+.navy-gold-card {
+  background: linear-gradient(180deg, rgba(11, 25, 44, 0.95) 0%, rgba(6, 13, 23, 0.98) 100%);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+/* Subtle pattern backdrops */
+.bg-grid-pattern {
+  background-image: radial-gradient(rgba(212, 175, 55, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

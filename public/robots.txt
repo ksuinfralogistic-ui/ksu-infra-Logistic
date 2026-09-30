@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ksuinfralogistic.com/sitemap.xml

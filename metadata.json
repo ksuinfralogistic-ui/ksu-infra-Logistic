@@ -1,0 +1,6 @@
+{
+  "name": "KSU Infra & Logistic",
+  "description": "Corporate website for KSU Infra & Logistic, providing reliable pan-India bulk material transportation, flyash logistics, and civil infrastructure construction services from Raipur, Chhattisgarh.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
